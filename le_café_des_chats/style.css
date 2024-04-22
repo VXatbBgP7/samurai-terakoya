@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+h1, p, body {
+  margin: 0;
+}ß
+
+body {
+	font-family: "Zen Old Mincho", serif;
+	font-size: 1.6rem;
+	line-height: 2.1;
+	color: #3c3633;
+	text-align: center;
+}
+
+.table_design04 {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+}
+.table_design04 th, .table_design04 td {
+  padding: 1em;
+}
+.table_design04 th {
+  border-right: 1px solid #4d9bc1;
+  font-weight: bold;
+  text-align: left;
+  width: 20%;
+  min-width: 4em;
+}
+
+.title {
+  font-family: 'Reenie Beanie', serif;
+  font-size: 85px;
+}
+
+.sub {
+  font-family: 'Zen Old Mincho', serif;
+}
+
+/*================
+PC用のスタイル 
+=================*/
+/* 横幅設定 */
+body {
+max-width: 1080px;
+min-width: 960px;
+margin: 0 auto 0 auto;
+}
+
+/* ヘッダー */
+header {
+display: flex;
+justify-content: space-between;
+}
+
+/* ナビゲーションのレイアウト */
+#nav-pc {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+#nav-pc > a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+#nav-pc > a:link {
+  color: #0d0d0d;
+}
+#nav-pc > a:visited {
+  color: #0d0d0d;
+}
+#nav-pc > a:hover {
+  color: #0d0d0d;
+  text-decoration: underline;
+}
+#nav-pc > a:active {
+  color: #0d0d0d;
+}
+
+.inner {
+	width: 90%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+header .inner {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.test1 {
+  position: relative;
+  width: 400px;
+}
+
+.test2 {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 120px;
+}
+
+
